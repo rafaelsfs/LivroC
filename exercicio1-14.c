@@ -13,7 +13,7 @@ main()
 	{
 		if(c >= '0' && c <= '9')
 			++ndigito[c-'0'];
-		if(c == ' ' || c == '\n' || c == '\t')
+		else if(c == ' ' || c == '\n' || c == '\t')
 		{
 			++nbranco;
 		}
@@ -23,13 +23,17 @@ main()
 		}
 	}
 	printf("chars\n");
-	for(i=1;i<MAX;i++)
+	for(i=0;i<MAX;i++)
 	{
 		if (i<10)
 			printf(" ");
 		printf("%d |",i);
 		for(j=0;j<ndigito[i];j++)
+		{
 			printf("=");
+			fflush(stdout);
+			usleep(200000);
+		}
 		printf(" %d\n",ndigito[i]);
 	}
 	printf("bra|");
