@@ -27,23 +27,31 @@ main()
 		if(caracter[i] > maior)
 			maior = caracter[i];
 	tmp = maior;
-	//printf("Maior=%d\n",maior);
 	for(i=maior;i>0;i--)
 	{
-	//	printf("j=%d\n",j);a
+		if ((i % 2) > 0)
+			printf("\e[0;36m");
+		else
+			printf("\e[0;0m");
 		if(i<10)
 			printf(" %d",i);
 		else
 			printf("%d",i);
 
-		printf("|-");
-		printf("--");
+		printf("\e[0;0m");
+		printf("|");
+		if ((i % 2) > 0)
+			printf("\e[0;36m");
+		printf("---");
 		for(j=0;j<MAX;j++)
 		{
 
 			if (caracter[j] >= i)
 			{
+				printf("\e[0;0m");
 				printf("|");
+				if ((i % 2) > 0)
+					printf("\e[0;36m");
 				printf("-----");
 			}
 			else
@@ -54,10 +62,11 @@ main()
 		}
 		printf("\n");
 	}
+	printf("\e[0;0m");
 	for(i=0;i<78;i++)
 		printf("=");
 	printf("\n");
-	printf("     ");
+	printf("      ");
 	for(i=0;i<MAX;i++)
 		if(i<10)
 			printf("%d     ",i);
