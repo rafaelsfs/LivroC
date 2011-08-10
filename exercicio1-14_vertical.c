@@ -39,7 +39,8 @@ main()
 			printf("%d",i);
 
 		printf("\e[0;0m");
-		printf("|");
+		//printf("|");
+		printf(" ");
 		if ((i % 2) > 0)
 			printf("\e[0;36m");
 		printf("---");
@@ -49,6 +50,7 @@ main()
 			if (caracter[j] >= i)
 			{
 				printf("\e[0;0m");
+				//printf("|");
 				printf("|");
 				if ((i % 2) > 0)
 					printf("\e[0;36m");
@@ -75,6 +77,6 @@ main()
 		else
 			printf("outros");
 	printf("\n");
-	printf("Maior numero de ocorrencias: %d\n",maior);
+	printf("Maior numero de ocorrencias: \e[0;31m%d\e[0;0m\n",maior);
 	return 0;
 }
