@@ -9,7 +9,7 @@ Programas do livro: C: A Linguagem de Programacao - Padrao Ansi
 
 ## Errata
 
-###Pagina 28: Dentro da funçao *copia* possui um *while*, onde está faltadando um ")".
+###Pagina 28: Dentro da funçao **copia** possui um **while**, onde está faltando um **)**.
 
 ####Errado:
 	while ((para [i] = de [i] != '\0')
