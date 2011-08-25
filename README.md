@@ -25,13 +25,13 @@ No capítulo 1, por diversas vezes se refere a modificar um arquivo texto. Contu
 #####Para gravar o resultado em outro arquivo texto:
 	cat README.md | ./exercicio1-18 > SAIDA.txt
 
-Para exibir o arquivo gravado:
+######Para exibir o arquivo gravado:
 	cat SAIDA.txt
 
-Para exibir o arquivo gravado com o recurso de paginação(aperte [q] para sair):
+######Para exibir o arquivo gravado com o recurso de paginação(aperte [q] para sair):
 	less SAIDA.txt
 
-Navegue pelo arquivo usando as setas do teclado.
+***Obs: Navegue pelo arquivo usando as setas do teclado***.
      
 ![Capa do Livro](https://github.com/0xac0/LivroC/raw/master/capa.jpg)
 ## Errata
