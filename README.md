@@ -20,15 +20,15 @@ No capítulo 1, por diversas vezes se refere a modificar um arquivo texto. Contu
 
 ####Exemplo de como testar o programa compilado acima(exercicio1-18):
 
-#####Para mostrar na tela o resultado:
+####Para mostrar na tela o resultado:
 	cat README.md | ./exercicio1-18
-#####Para gravar o resultado em outro arquivo texto:
+####Para gravar o resultado em outro arquivo texto:
 	cat README.md | ./exercicio1-18 > SAIDA.txt
 
-######Para exibir o arquivo gravado:
+#####Para exibir o arquivo gravado:
 	cat SAIDA.txt
 
-######Para exibir o arquivo gravado com o recurso de paginação(aperte [q] para sair):
+#####Para exibir o arquivo gravado com o recurso de paginação(aperte [q] para sair):
 	less SAIDA.txt
 
 ***Obs: Navegue pelo arquivo usando as setas do teclado***.
