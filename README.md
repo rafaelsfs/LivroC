@@ -16,7 +16,7 @@ Programas do livro: C: A Linguagem de Programacao - Padrao Ansi
 	gcc -o exercicio1-18 exercicio1-18.c
 
 ###Como testar os programas:
-No capítulo 1, por diversas vezes se refere a modificar um arquivo texto. Contudo, não há referência do programa em C ler diretamente o arquivo texto. Assim sendo, segue uma sugestão de uso num sistema unix-like. Ademais vou usar o arquivo **README.md**, ou seja este arquivo que você está lendo.
+No capítulo 1, por diversas vezes se fala de modificar um arquivo texto. Contudo, não há qualquer rotina nos programas em C para ler diretamente o arquivo texto. Assim sendo, segue uma sugestão de uso destes programas num sistema unix-like. Ademais vou usar o arquivo **README.md**, ou seja este arquivo que você está lendo.
 
 ####Exemplo de como testar o programa compilado acima(exercicio1-18):
 
