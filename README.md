@@ -9,7 +9,7 @@ Programas do livro: C: A Linguagem de Programacao - Padrao Ansi
 ## Instruções para compilar e testar os programas
 É apropriado compilar e testar os programas abaixo em ambiente ***Unix-like***(o que inclui Mac OS).
 ###Como compilar os programas:
-gcc -o <arquivo_do_programa> <arquivo_do_programa>.c
+	gcc -o programa programa.c
 Exemplo:
 	gcc -o exercicio1-18 exercicio1-18.c
 
