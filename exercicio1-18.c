@@ -5,11 +5,9 @@ int
 main(void)
 {
 	int tam; /* tamanho corrente da linha */
-	int tmp;
 	char linha[MAXLINHA];
-	tmp=0;
 	while((tam=lelinha(linha,MAXLINHA))>0)
-		if(!(tam<2 && linha[0]))
+		if(!(tam<2 && linha[0] == '\n'))
 			printf("%s",linha);
 	return 0;
 }
