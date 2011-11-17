@@ -18,3 +18,9 @@ main()
 					putchar(c);
 	}
 }
+
+/* para testar o programa de forma fácil, execute os seguintes comandos:
+ * echo -e "Linguagem\tC:\ \b"
+ * depois:
+ * echo -e "Linguagem\tC:\ \b" | ./exercicio1-10
+ */
