@@ -37,7 +37,7 @@ No capítulo 1, por diversas vezes se fala de modificar um arquivo texto. Contud
 ## Errata
 
 ###Página 7:
-Dentro do último da página 7. Trocar o **_** pelo **)**. 
+Dentro do último programa da página 7. Trocar o **_** pelo **)**. 
 
 ####Errado:
 	printf("programa"_;
