@@ -1,13 +1,13 @@
 #include <stdio.h>
-#define LOWER  0     /* lower limit of table */
-#define UPPER  300   /* upper limit */
-#define STEP   20    /* step size */
+#define INICIO  0     /* limite inferior da tabela */
+#define FIM  300   /* limite superior */
+#define INCR   20    /* incremento */
 
-/* print Fahrenheit-Celsius table */
+/* imprime tabela Fahrenheit-Celsius */
 main()
 {
        int fahr;
 
-       for (fahr = LOWER; fahr <= UPPER; fahr = fahr + STEP)
+       for (fahr = INICIO; fahr <= FIM; fahr = fahr + INCR)
            printf("%3d %6.1f\n", fahr, (5.0/9.0)*(fahr-32));
 }
