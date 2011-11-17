@@ -36,7 +36,16 @@ No capítulo 1, por diversas vezes se fala de modificar um arquivo texto. Contud
 ![Capa do Livro](https://github.com/0xac0/LivroC/raw/master/capa.jpg)
 ## Errata
 
-###Pagina 16:
+###Página 7:
+Dentro do último da página 7. Trocar o **_** pelo **)**. 
+
+####Errado:
+	printf("programa"_;
+
+####Certo:
+	printf("programa");
+
+###Página 16:
 Dentro do programa da página 15 que continua nesta página. Trocar o **-** pelo **=**. 
 
 ####Errado:
@@ -45,7 +54,7 @@ Dentro do programa da página 15 que continua nesta página. Trocar o **-** pelo
 ####Certo:
 	c = getchar();
 
-###Pagina 28:
+###Página 28:
 Dentro do programa, tem uma funçao **copia** que possui um **while**, onde está faltando um **)**.
 
 ####Errado:
