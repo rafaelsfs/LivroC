@@ -33,7 +33,7 @@ No capítulo 1, por diversas vezes se fala de modificar um arquivo texto. Contud
 
 ***Obs: Navegue pelo arquivo usando as setas do teclado***.
      
-![Capa do Livro](https://github.com/AntonioCosta/LivroC/blob/master/capa.jpg)
+![Capa do Livro](https://github.com/AntonioCosta/LivroC/raw/master/capa.jpg)
 ## Errata
 
 ###Página 7:
