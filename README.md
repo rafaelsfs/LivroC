@@ -1,10 +1,12 @@
-Programas do livro: C: A Linguagem de Programação - Padrão Ansi     
-===============================================================   
-	Título: C: A linguagem de programação - Padrão Ansi   
-	Autor: Kernighan, Brian W. / Ritchie, Dennis M.  
-	Editora: Campus(Elsevier)   
-	ISBN: 978-85-700-1586-0  
-	Idioma: Português   
+Programas do livro: C: A Linguagem de Programação - Padrão Ansi
+===============================================================
+	Título: C: A linguagem de programação - Padrão Ansi
+	Título original: The C Programming Language - Second Edition
+	Tiragem: 23a
+	Autor: Kernighan, Brian W. / Ritchie, Dennis M.
+	Editora: Campus(Elsevier)
+	ISBN: 978-85-700-1586-0
+	Idioma: Português
 
 ## Instruções para compilar e testar os programas
 É apropriado compilar e testar os programas abaixo em ambiente ***Unix-like***(o que inclui Mac OS).
