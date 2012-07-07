@@ -1,4 +1,4 @@
-Programas do livro: C: A Linguagem de Programacao - Padrão Ansi     
+Programas do livro: C: A Linguagem de Programação - Padrão Ansi     
 ===============================================================   
 	Título: C: A linguagem de programação - Padrão Ansi   
 	Autor: Kernighan, Brian W. / Ritchie, Dennis M.  
@@ -55,7 +55,7 @@ Dentro do programa da página 15 que continua nesta página. Trocar o **-** pelo
 	c = getchar();
 
 ###Página 28:
-Dentro do programa, tem uma funçao **copia** que possui um **while**, onde está faltando um **)**.
+Dentro do programa, tem uma função **copia** que possui um **while**, onde está faltando um **)**.
 
 ####Errado:
 	while ((para [i] = de [i] != '\0')
