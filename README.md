@@ -1,4 +1,4 @@
-Programas do livro: C: A Linguagem de Programacao - Padrao Ansi     
+Programas do livro: C: A Linguagem de Programacao - Padrão Ansi     
 ===============================================================   
 	Título: C: A linguagem de programação - Padrão Ansi   
 	Autor: Kernighan, Brian W. / Ritchie, Dennis M.  
