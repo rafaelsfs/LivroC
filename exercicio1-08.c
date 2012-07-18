@@ -1,20 +1,25 @@
 #include <stdio.h>
 
-int
+/* conta espacos, tabulacao e nova linha  */
 main()
 {
-	char c;
-	int nl,nt,ne;
-	nl=nt=ne=0;
-	while((c=getchar()) != EOF)
-	{
-		if(c=='\n')
-			++nl;
-		if(c=='\t')
-			++nt;
-		if(c==' ')
-			++ne;
+	int c;
+	int e;
+	int nl;
+	int t;
+	
+	e = 0;
+	nl = 0;
+	t = 0;
+	while ((c = getchar()) != EOF) {
+		if (c == ' ') ++e;
+		if (c == '\n') ++nl;
+		if (c == '\t') ++t;
+
 	}
-	printf("Lines\tTabs\tSpaces\n");
-	printf("%d\t%d\t%d\n",nl,nt,ne);
+
+	printf("Espacos: %d, Linhas: %d, Tabulacoes: %d\n",e,nl,t);
 }
+/* Testando
+ * cat README.md | ./a.out 
+ */
