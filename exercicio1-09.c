@@ -1,25 +1,25 @@
 #include <stdio.h>
 
-int
+/* troca dois ou mais espacos seguidos por um espaco  */
 main()
 {
-	char c;
-	int ne;
-	ne   =     0;
-	while((c  =  getchar())  !=  EOF)
-	{
-		if(c  ==  ' ')
-		{
-			ne++;
-		}
-	       	else
-		{
-			if (  ne > 0  )
-			{
+	int c;
+	int e;
+	
+	e=0;
+	while ((c = getchar()) != EOF) {
+		if (c == ' ') {
+			++e;
+		} else {
+			if (e > 0) {
+				e=0;
 				printf(" ");
-				ne  =  0;
 			}
 			putchar(c);
+
 		}
+
 	}
+
 }
+
