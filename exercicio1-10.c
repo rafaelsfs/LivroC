@@ -1,26 +1,19 @@
 #include <stdio.h>
 
-int
+/* mostra ocorrencias de espaco, tabulacao e nova linha  */
 main()
 {
-	char c;
-	while((c  =  getchar())  !=  EOF)
-	{
-		if (c == '\t')
+	int c;
+	while ((c = getchar()) != EOF) {
+		if (c == '\\')
+		       	printf("\\\\");
+		else if (c == '\n')
+		       	printf("\\n");
+		else if (c == '\t') 
 			printf("\\t");
 		else
-			if (c == '\b')
-				printf("\\b");
-			else
-				if (c == '\\')
-					printf("\\\\");
-				else
-					putchar(c);
+			putchar(c);
+
 	}
 }
 
-/* para testar o programa de forma fácil, execute os seguintes comandos:
- * echo -e "Linguagem\tC:\ \b"
- * depois:
- * echo -e "Linguagem\tC:\ \b" | ./exercicio1-10
- */
