@@ -1,4 +1,4 @@
-Programas do livro: C: A Linguagem de Programacao - Padrão Ansi
+Programas do livro ** C: A Linguagem de Programacao - Padrão Ansi**
 ===============================================================
 	Título: C: A linguagem de programacao - Padrão Ansi
 	Título original: The C Programming Language - Second Edition
