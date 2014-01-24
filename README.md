@@ -8,6 +8,7 @@ Programas do livro ***C: A Linguagem de Programacao - Padrão Ansi***
 	ISBN: 978-85-700-1586-0
 	Idioma: Português
 
+![Capa do Livro](https://raw.github.com/TeeBSD/LivroC/master/capa.jpg)
 ## Instruções para compilar e testar os programas
 É recomendado compilar e testar os programas abaixo num ambiente ***Unix-like***(o que inclui Mac OS).
 
@@ -35,7 +36,7 @@ No capítulo 1, por diversas vezes se fala de modificar um arquivo texto. Contud
 
 ***Obs: Navegue pelo arquivo usando as setas do teclado***.
      
-![Capa do Livro](https://raw.github.com/TeeBSD/LivroC/master/capa.jpg)
+
 ## Errata
 
 ###Pagina 7:
