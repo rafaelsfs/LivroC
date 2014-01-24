@@ -74,3 +74,12 @@ Dentro do programa, tem uma funcao **copia** que possui um **while** onde está 
 
 ####Certo:
 	while ((para [i] = de [i] ) != '\0')
+
+###Pagina 39:
+Dentro do trecho de codigo **enum meses {**, possui um caracter **<**, onde deveria ser **,**.
+
+####Errado:
+	enum mese { JAN = 1, FEV, MAR< ABR, MAI, JUN
+
+####Certo:
+	enum mese { JAN = 1, FEV, MAR, ABR, MAI, JUN
